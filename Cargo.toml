@@ -14,4 +14,4 @@ name = "client"
 path = "./src/client.rs"
 
 [dependencies]
-
+tokio = { version = "1", features = ["full"] }
